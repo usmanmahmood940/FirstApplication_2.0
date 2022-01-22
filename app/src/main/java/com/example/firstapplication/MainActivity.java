@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(
                 MainActivity.this,"Activity Created",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"Activity Created2.0",Toast.LENGTH_SHORT).show();
     }
     @Override
     protected void onStart(){
